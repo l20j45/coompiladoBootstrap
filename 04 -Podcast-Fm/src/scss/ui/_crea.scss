@@ -1,0 +1,9 @@
+@use '../utils/mixins';
+@use '../custom'as *;
+
+.crea-podcast {
+    h2 {
+        
+        @include mixins.headingBorder($secondary, $primary);
+    }
+}
